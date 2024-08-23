@@ -6,10 +6,10 @@ jobs:
     name: This is a ubuntu
     runs-on: ubuntu-latest
     steps:
-      #- name: This a step in job name ubuntu
-      #uses: actions/checkout
+      - name: This a step in job name ubuntu
       - run: date
-
+      #uses: actions/checkout
+      
   windows: # jobs name: windows
     runs-on: windows-latest
     steps:
