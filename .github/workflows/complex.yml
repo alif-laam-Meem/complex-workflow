@@ -2,7 +2,8 @@ name: complex-workflow
 on: push
 
 jobs:
-  ubuntu: # jobs name: ubuntu:
+  ubuntu: 
+    name: This is a ubuntu
     runs-on: ubuntu-latest
     steps:
     #- name: 
